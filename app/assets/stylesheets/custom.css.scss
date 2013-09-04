@@ -1,0 +1,62 @@
+@import "bootstrap";
+
+body {
+  padding-top: 60px;
+}
+
+div#mainLogo {
+	margin-top: 10px;
+	background: #3e454d;
+}
+
+div#tableContainer{
+  display:          table;
+  border-spacing:   0px;
+  margin-top: 50px;
+}
+
+div#tableRow {
+  display:          table-row;
+}
+
+section#news {
+	display: table-cell;
+	width: 618px;
+	padding: 0px 40px 0px 0px;
+	vertical-align: top;
+}
+
+/*Contact Site*/
+
+section#contact {
+	display: table-cell;
+	width: 475px;
+	margin-right: 25px;
+	vertical-align: top;
+}
+
+div#contactSection, div#callSection{
+	height: 200px;
+}
+
+div#map_canvas {
+    width: 300px;
+    height: 300px;
+    background-color: #CCC;
+  }
+
+p.paragraph {
+	width: 300px;
+}
+
+/*About Site*/
+
+div#articles {
+	margin-top: 50px;
+	width: 618px;
+	
+}
+
+div#story {
+	margin-top: 20px;
+}
